@@ -1,7 +1,8 @@
 name: Fly Deploy
+
 on:
   push:
-      branches: [ "main" ] # Cambia "main" in "master" se usi quella come branch principale
+    branches: [ "main" ] # Cambia in "master" se usi quella come branch principale
 
 jobs:
   deploy:
